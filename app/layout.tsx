@@ -1,23 +1,21 @@
-import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
-import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
+import './global.css';
+import type { Metadata } from 'next';
+import Sidebar from './components/sidebar';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://friction470.netlify.app'),
   title: {
-    default: "Friction",
-    template: "%s | Friction",
+    default: 'Friction',
+    template: '%s | Friction',
   },
-  description: "Yo! I'm Friction, Founder of Aquin.",
+  description: 'Yo! Im Friction, Founder of Aquin.',
   openGraph: {
-    title: "Friction",
-    description:
-      "Yo! I'm Friction, Founder of Aquin.",
-    url: "https://aquindoc.netlify.app",
-    siteName: "Friction",
-    locale: "en-US",
-    type: "website",
+    title: 'Friction',
+    description: 'Yo! Im Friction, Founder of Aquin.',
+    url: 'https://friction470.netlify.app',
+    siteName: 'Friction',
+    locale: 'en_US',
+    type: 'website',
   },
   robots: {
     index: true,
@@ -25,28 +23,12 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     },
-  },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
-  },
-  icons: {
-    shortcut: "/favicon.png",
-  },
+  }
 };
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
-
-const calSans = LocalFont({
-  src: "../public/fonts/CalSans-SemiBold.ttf",
-  variable: "--font-calsans",
-});
 
 export default function RootLayout({
   children,
@@ -54,15 +36,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-      <head>
-        <Analytics />
-      </head>
-      <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
-      >
-        {children}
+    <html
+      lang="en"
+      className={'text-black bg-white dark:text-white dark:bg-[#111010]'}
+    >
+      <body className="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto">
+        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+          <Sidebar />
+          {children}
+        </main>
       </body>
     </html>
   );
