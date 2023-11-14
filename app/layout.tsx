@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://friction470.netlify.app'),
   title: {
     default: 'Friction',
-    template: '%s | Friction',
+    template: '%s | Lee Robinson',
   },
   description: 'Yo! Im Friction, Founder of Aquin.',
   openGraph: {
