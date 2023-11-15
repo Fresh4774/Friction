@@ -11,6 +11,13 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Jom:
+        </span>
+        "Friction is very talented and motivated, their level of ability is surprising especially for their age"
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
         Arsenic:
         </span>
         you're cool, 'smart' and 'cool' pretty much sum up ...your personality imo
