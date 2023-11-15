@@ -194,11 +194,11 @@ export default function Page() {
       <div className="my-8 flex flex-col space-y-4 w-full">
         <Suspense>
           <BlogLink
-            name="I'm the Founder of Aquin."
+            name="I'm the founder of Aquin."
             link="https://aquindoc.netlify.app"
           />
           <BlogLink
-            name="I've completed 160+ Projects, been a freelancer, tried open-source."
+            name="I've completed 160+ projects, been a freelancer, tried open-source."
             link="https://discord.com/invite/QTDMufddPE"
           />
           <BlogLink 

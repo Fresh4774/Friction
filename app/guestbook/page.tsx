@@ -11,10 +11,18 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+          Speedy:
+        </span>
+        friction is like good at coding and always makes things as hard as possible even if it means ruining his life in the process. Also he is super dedicated to Aquin and hopefully will get super rich
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
           Lazy:
         </span>
         friction is my best friend and i love him ummmm yeah youre one of my dearest friends and im very grateful for you i Really enjoy talking to you, i think youre very mature for your age and smart and aaa youre very open minded for someone your age, youre kind, friendly, positive influence
       </div>
+
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
           Adam:
