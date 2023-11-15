@@ -11,6 +11,62 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Arsenic:
+        </span>
+        you're cool, 'smart' and 'cool' pretty much sum up ...your personality imo
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Bunnariii:
+        </span>
+        Very approachable and makes sure the person they work with is satisfied! 🧡
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        aBig0:
+        </span>
+        When I was 15 I didn't know what programming is. And here friction who build so many amazing projects in such a young age is unbelievable. Friction is my inspiration.
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Xingho:
+        </span>
+        brother you truly qualify as a under 18 one man devloper, I never met one other than u with such set of skills, ✨op
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        1xRiku:
+        </span>
+        I think you're very enthusiastic about what you do, and you're kindly helping people with your skills. I'm impressed with your consistency, how you always check on your clients and make sure if they need any help. I'm sure with your personality and skills, you'll achieve a lot one day.
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Kenny:
+        </span>
+        u mentor ppl in your free time Like you help ppl with coding
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Determinated:
+        </span>
+        youre good leader, able to work on a project for a long period of time
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+          Proton:
+        </span>
+        FRICTION  IS CODING GOD, CHANGE MY MIND
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
           Speedy:
         </span>
         friction is like good at coding and always makes things as hard as possible even if it means ruining his life in the process. Also he is super dedicated to Aquin and hopefully will get super rich
