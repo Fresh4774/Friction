@@ -9,7 +9,7 @@ const navItems = {
     name: 'Home',
   },
   '/guestbook': {
-    name: 'Signature',
+    name: 'About Me',
   },
 };
 

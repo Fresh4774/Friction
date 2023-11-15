@@ -94,7 +94,7 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`
-        Yo! I'm a 15-year-old entrepreneur and coding enthusiast who's been in the game since the age of 7. I'm known as "Friction" in the internet its my sobriquet anyways Currently, I'm steering the ship as the founder of my startup, Aquin! and things are looking pretty good on that front.
+        Yo! I'm a 15-year-old entrepreneur and coding enthusiast who's been in the game since the age of 7. I'm known as "Friction" in the internet its my sobriquet anyways Currently, I'm steering the ship as the founder of my startup, Aquin!
         `}
       </p>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
@@ -161,7 +161,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I've got a amazing freelancing background with over 160 side- projects that span the entire tech spectrum. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! I've got my fingers in many coding pies. Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college, and thrown my two cents into various startup initiatives. Oh, and did I mention I've got some skin in the machine learning game too?
+        I've got a amazing freelancing background with over 160 side-projects that span the entire tech spectrum. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! I've got my fingers in many coding pies. Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college, and thrown my two cents into various startup initiatives. Oh, and did I mention I've got some skin in the machine learning game too?
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -188,21 +188,21 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        When it comes to languages, I'm not just talking the talk-I walk the walk with proficiency in 12 to 14 of them. And hey, I've got a basic understanding of around 40 others.
+        When it comes to languages, I'm not just talking, I talk the walk with proficiency in 12 to 14 of them. And hey, I've got a basic understanding of around 40 others.
         </p>
       </div>
       <div className="my-8 flex flex-col space-y-4 w-full">
         <Suspense>
           <BlogLink
-            name="Friction is Founder of Aquin."
+            name="I'm the Founder of Aquin."
             link="https://aquindoc.netlify.app"
           />
           <BlogLink
-            name="Friction has completed 160+ Projects, been a freelancer, tried open-source."
+            name="I've completed 160+ Projects, been a freelancer, tried open-source."
             link="https://discord.com/invite/QTDMufddPE"
           />
           <BlogLink 
-          name="Friction plays ukulele, guitar, table tennis and fortnite." 
+          name="I play ukulele, guitar, table tennis and fortnite." 
           link="https://open.spotify.com/user/31kpb6bsm44q3yzwe2tjdggmf54e" 
           />
         </Suspense>
