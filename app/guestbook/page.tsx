@@ -11,6 +11,34 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Cap:
+        </span>
+        youre a very friendly and polite boy
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Carahchii:
+        </span>
+        As a client, I was satisfied by how accommodating you were with my requests! It was nice of you to go through many revisions with me to achieve a site Im content with!
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Polite:
+        </span>
+        friction is ironman, I think it's creativ, you will become an artist bro dream big man you can do it
+      </div>
+        
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Lake:
+        </span>
+        well, i think youre cool and you're dedicated, especially for your age so I assume you're learning more every day, and eventually Aquin will succeed
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
         Jom:
         </span>
         "Friction is very talented and motivated, their level of ability is surprising especially for their age"
