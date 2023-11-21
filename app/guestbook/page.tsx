@@ -4,10 +4,24 @@ export default function GuestbookPage() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
-        What People Think.
+        About Me
       </h1>
       <Suspense>
       <div className="flex flex-col space-y-1 mb-4 gap-4">
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Halarasoul:
+        </span>
+        Your services are the best! Not only was the website anmazing but your accommodation and patience with your clients are excellent! You always  check on your clients and update them on your progress in projects. I cant imagine working with someone else for my website. ^_^
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Pcannon:
+        </span>
+        Friction has a big mind, more than a chad
+      </div>
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
