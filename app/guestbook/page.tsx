@@ -4,7 +4,7 @@ export default function GuestbookPage() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
-        About Me
+        About Me ✌️
       </h1>
       <Suspense>
       <div className="flex flex-col space-y-1 mb-4 gap-4">

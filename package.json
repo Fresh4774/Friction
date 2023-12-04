@@ -8,6 +8,7 @@
     "setup": "node ./lib/setup.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/source-sans-3": "^5.0.18",
     "@planetscale/database": "^1.11.0",
     "@vercel/analytics": "^1.1.1",
     "@vercel/edge-config": "^0.4.1",

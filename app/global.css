@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -9,6 +10,7 @@
 
 html {
   min-width: 360px;
+  font-family: Arial, sans-serif;
 }
 
 .prose .anchor {
