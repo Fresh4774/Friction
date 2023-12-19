@@ -170,7 +170,7 @@ export default function Page() {
             img={Pic1}
             name="@itssFriction"
             link="https://www.youtube.com/@itssFriction/videos"
-            subs="466 Subscribers"
+            subs="471 Subscribers"
           />
           <ChannelLink
             img={Pic1}
