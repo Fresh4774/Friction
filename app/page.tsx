@@ -4,8 +4,9 @@ import Pic1 from 'public/Pic1.jpg';
 import Pic5 from 'public/Pic5.png';
 import Pic3 from 'public/Pic3.jpg';
 import Pic4 from 'public/Pic4.jpg';
-import Pic6 from 'public/Pic6.jpg';
 import Aquin from 'public/aquin.png';
+import Profile from 'public/images.png';
+import MainProfile from 'public/IMG.png';
 import { Suspense } from 'react';
 
 
@@ -94,7 +95,7 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`
-        Yo! I'm a 15-year-old entrepreneur and a coding enthusiast who's been in the game since the age of 7. I'm known as "Friction" over the internet its my sobriquet. Currently, I'm steering the ship as the founder of my startup, Aquin!
+        Yo! I'm a 15-year-old entrepreneur and a coding enthusiast who's been in the game since the age of 7. I'm known as "Friction" over the internet its my sobriquet. Currently, I'm focusing on my startup, Aquin!
         `}
       </p>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
@@ -151,7 +152,7 @@ export default function Page() {
         <div className="relative h-80">
           <Image
             alt="Friction"
-            src={Pic6}
+            src={Profile}
             fill
             sizes="(min-width: 768px) 213px, 33vw"
             priority
@@ -167,22 +168,22 @@ export default function Page() {
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
         <Suspense fallback={<ChannelSkeleton />}>
           <ChannelLink
-            img={Pic1}
+            img={MainProfile}
             name="@itssFriction"
             link="https://www.youtube.com/@itssFriction/videos"
             subs="471 Subscribers"
           />
           <ChannelLink
-            img={Pic1}
+            img={MainProfile}
             name="@Friction470"
             link="https://twitter.com/Friction470"
             subs="39 Followers"
           />
           <ChannelLink
-            img={Pic1}
-            name="@Friction"
-            link="https://www.linkedin.com/in/friction-friction-a4162a29a/"
-            subs="2 Followers"
+            img={MainProfile}
+            name="Friction"
+            link="https://github.com/Fresh4774"
+            subs="3 Followers"
           />
         </Suspense>
       </div>
@@ -195,7 +196,11 @@ export default function Page() {
         <Suspense>
           <BlogLink
             name="I'm the founder of Aquin."
-            link="https://aquindoc.netlify.app"
+            link="https://aquin.app"
+          />
+          <BlogLink
+            name="I'm the founder of Aquin. Its Documentation."
+            link="https://aquindoc.vercel.app"
           />
           <BlogLink
             name="I've completed 160+ projects, been a freelancer, tried open-source."
@@ -233,7 +238,7 @@ export default function Page() {
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://aquindoc.netlify.app"
+            href="https://aquin.app"
           >
             <ArrowIcon />
             <p className="h-7 ml-2">Aquin</p>
