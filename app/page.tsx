@@ -95,7 +95,7 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`
-        Yo! I'm a 15-year-old entrepreneur and a coding enthusiast who's been in the game since the age of 7. I'm known as "Friction" over the internet its my sobriquet. Currently, I'm focusing on my startup, Aquin!
+        Yo! I'm a 15-year-old entrepreneur and a coder who's been in the game since the age of 7. Currently, I'm focusing on my dream, my startup Aquin!
         `}
       </p>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
@@ -162,7 +162,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I've got a amazing freelancing background and over 160 side-projects that span the entire tech spectrum. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college, bakery, law-firm and thrown few cents into various startups. Oh, and did I mention I've got some skin in the machine learning game too?
+        I've got a amazing freelancing experience and over 200+ side-projects. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college, bakery, law-firm and thrown few cents into various startups. Oh, and did I mention I've got some skin in the machine learning game too?
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -171,19 +171,19 @@ export default function Page() {
             img={MainProfile}
             name="@itssFriction"
             link="https://www.youtube.com/@itssFriction/videos"
-            subs="471 Subscribers"
+            subs="472 Subscribers"
           />
           <ChannelLink
             img={MainProfile}
             name="@Friction470"
             link="https://twitter.com/Friction470"
-            subs="39 Followers"
+            subs="40 Followers"
           />
           <ChannelLink
             img={MainProfile}
             name="Friction"
             link="https://github.com/Fresh4774"
-            subs="3 Followers"
+            subs="4 Followers"
           />
         </Suspense>
       </div>
@@ -195,19 +195,19 @@ export default function Page() {
       <div className="my-8 flex flex-col space-y-4 w-full">
         <Suspense>
           <BlogLink
-            name="I'm the founder of Aquin."
+            name="I'm the Founder of Aquin."
             link="https://aquin.app"
           />
           <BlogLink
-            name="I'm the founder of Aquin. Its Documentation."
+            name="I'm the Founder of Aquin. (Documentation)"
             link="https://aquindoc.vercel.app"
           />
           <BlogLink
-            name="I've completed 160+ projects, been a freelancer, tried open-source."
+            name="I've Completed 200+ Projects, been a Freelancer, tried Open-Source."
             link="https://discord.com/invite/QTDMufddPE"
           />
           <BlogLink 
-          name="I play ukulele, guitar, table tennis and fortnite." 
+          name="I play Ukulele, Guitar, Table Tennis and Fortnite." 
           link="https://open.spotify.com/user/31kpb6bsm44q3yzwe2tjdggmf54e" 
           />
         </Suspense>
@@ -260,7 +260,7 @@ export default function Page() {
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://discord.com/invite/QTDMufddPE"
+            href="https://discord.com/invite/HfXbsufW9T"
           >
             <ArrowIcon />
             <p className="h-7 ml-2">Join Me</p>
