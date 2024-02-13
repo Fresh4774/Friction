@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Pic2 from 'public/Pic2.jpg';
-import Pic1 from 'public/Pic1.jpg';
+import Pic1 from 'public/imgage.png';
 import Pic5 from 'public/Pic5.png';
 import Pic3 from 'public/Pic3.jpg';
 import Pic4 from 'public/Pic4.jpg';
 import Aquin from 'public/aquin.png';
-import Profile from 'public/images.png';
+import Profile from 'public/friction234.jpg';
 import MainProfile from 'public/IMG.png';
 import { Suspense } from 'react';
 
@@ -171,7 +171,7 @@ export default function Page() {
             img={MainProfile}
             name="@itssFriction"
             link="https://www.youtube.com/@itssFriction/videos"
-            subs="472 Subscribers"
+            subs="475 Subscribers"
           />
           <ChannelLink
             img={MainProfile}
@@ -195,19 +195,19 @@ export default function Page() {
       <div className="my-8 flex flex-col space-y-4 w-full">
         <Suspense>
           <BlogLink
-            name="I'm the Founder of Aquin."
+            name="Founder of Aquin."
             link="https://aquin.app"
           />
           <BlogLink
-            name="I'm the Founder of Aquin. (Documentation)"
+            name="Founder of Aquin. (Documentation)"
             link="https://aquindoc.vercel.app"
           />
           <BlogLink
-            name="I've Completed 200+ Projects, been a Freelancer, tried Open-Source."
+            name="Completed 200+ Projects, been a Freelancer, tried Open-Source."
             link="https://discord.com/invite/QTDMufddPE"
           />
           <BlogLink 
-          name="I play Ukulele, Guitar, Table Tennis and Fortnite." 
+          name="Ukulele, Guitar, Table Tennis and Fortnite." 
           link="https://open.spotify.com/user/31kpb6bsm44q3yzwe2tjdggmf54e" 
           />
         </Suspense>
