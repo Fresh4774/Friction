@@ -11,6 +11,13 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Harshika:
+        </span>
+        Friction is an amazing person... Really supportive and encouraging, wonderful person to work with and he is one of the best people I've met so far.
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
         Saurabh:
         </span>
         he is way mature than his age,  he will create magic in the coding world......
@@ -168,13 +175,6 @@ export default function GuestbookPage() {
           Niraj:
         </span>
         Looking forward to handle finance of this chap
-      </div>
-
-      <div className="w-full text-sm break-words">
-        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
-          Melodie:
-        </span>
-        A King 👑
       </div>
 
       <div className="w-full text-sm break-words">

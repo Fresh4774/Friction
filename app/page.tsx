@@ -171,13 +171,13 @@ export default function Page() {
             img={MainProfile}
             name="@itssFriction"
             link="https://www.youtube.com/@itssFriction/videos"
-            subs="475 Subscribers"
+            subs="477 Subscribers"
           />
           <ChannelLink
             img={MainProfile}
             name="@Friction470"
             link="https://twitter.com/Friction470"
-            subs="40 Followers"
+            subs="37 Followers"
           />
           <ChannelLink
             img={MainProfile}
@@ -189,7 +189,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        When it comes to languages, I'm not just talking, I talk the walk with proficiency in 14 of them. And hey, I've got a basic understanding of around 40 others.
+        When it comes to languages, I'm not just talking, I talk the walk with proficiency in 30 of them.
         </p>
       </div>
       <div className="my-8 flex flex-col space-y-4 w-full">
@@ -249,7 +249,7 @@ export default function Page() {
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/Friction470"
+            href="https://www.instagram.com/frictionhimself470/"
           >
             <ArrowIcon />
             <p className="h-7 ml-2">Say, Yo!</p>
@@ -260,7 +260,7 @@ export default function Page() {
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://discord.com/invite/HfXbsufW9T"
+            href="https://discord.com/invite/4W9FBQsvbK"
           >
             <ArrowIcon />
             <p className="h-7 ml-2">Join Me</p>
