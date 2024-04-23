@@ -11,6 +11,13 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Arjun:
+        </span>
+        Frictions the most supportive and friendly guy I know. God blessed me w such a friend
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
         Prince Charming:
         </span>
         I aint gonna say the cliched line that this man will go places, rather I will have to say that he is gonna be the person who actually makes those places. Friction is strangely inspiring and has a heart of gold, and I hope he reach heights that aren’t even discovered yet.
