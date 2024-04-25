@@ -11,6 +11,13 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Sarah:
+        </span>
+        He's a very sweet attentive guy he definitely is different from most people he's has a great heart and has dedication he definitely can do a lot , for a 15 year old he's amazing I've never met someone with such qualities I hope everything he does succeeds ✨
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
         Arjun:
         </span>
         Frictions the most supportive and friendly guy I know. God blessed me w such a friend
