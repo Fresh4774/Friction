@@ -6,6 +6,7 @@ import Pic3 from 'public/Pic3.jpg';
 import Pic4 from 'public/Pic4.jpg';
 import Aquin from 'public/aquin.png';
 import Profile from 'public/friction234.jpg';
+import Profile1 from 'public/friction23.jpg';
 import MainProfile from 'public/IMG.png';
 import { Suspense } from 'react';
 
@@ -95,14 +96,14 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`
-        Yo! I'm a 15-year-old entrepreneur and a coder who's been in the game since the age of 7. Currently, I'm focusing on my dream, my startup Aquin!
+        Yo! Ima 15-year-old entrepreneur and a programmer who's been in the game since the age of 7. Currently, I'm focusing on my dream, my startup Aquin!
         `}
       </p>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
         <div className="relative h-40 mb-4">
           <Image
             alt="Friction"
-            src={Pic1}
+            src={Profile1}
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -152,7 +153,7 @@ export default function Page() {
         <div className="relative h-80">
           <Image
             alt="Friction"
-            src={Profile}
+            src={Pic1}
             fill
             sizes="(min-width: 768px) 213px, 33vw"
             priority
@@ -162,7 +163,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I've got a amazing freelancing experience and over 200+ side-projects. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college, bakery, law-firm and thrown few cents into various startups. Oh, and did I mention I've got some skin in the machine learning game too?
+        I've got a decent freelancing experience and over 200+ side-projects. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college, bakery, law-firm and thrown few cents into various startups. Oh, and did I mention I've got some skin in the machine learning game too?
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -171,25 +172,25 @@ export default function Page() {
             img={MainProfile}
             name="@itssFriction"
             link="https://www.youtube.com/@itssFriction/videos"
-            subs="477 Subscribers"
+            subs="479 YT Subscribers"
           />
           <ChannelLink
             img={MainProfile}
             name="@Friction470"
             link="https://twitter.com/Friction470"
-            subs="37 Followers"
+            subs="36 X Followers"
           />
           <ChannelLink
             img={MainProfile}
-            name="Friction"
+            name="Friction GitHub"
             link="https://github.com/Fresh4774"
-            subs="4 Followers"
+            subs="7 Followers"
           />
         </Suspense>
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        When it comes to languages, I'm not just talking, I talk the walk with proficiency in 30 of them.
+        When it comes to languages, I'm not just talking, I talk the walk with proficiency in 28 of them.
         </p>
       </div>
       <div className="my-8 flex flex-col space-y-4 w-full">
@@ -200,11 +201,11 @@ export default function Page() {
           />
           <BlogLink
             name="Founder of Aquin. (Documentation)"
-            link="https://aquindoc.vercel.app"
+            link="https://doc.aquin.app"
           />
           <BlogLink
             name="Completed 200+ Projects, been a Freelancer, tried Open-Source."
-            link="https://discord.com/invite/QTDMufddPE"
+            link="https://discord.com/invite/suhwwzuAaX"
           />
           <BlogLink 
           name="Ukulele, Guitar, Table Tennis and Fortnite." 
@@ -220,7 +221,7 @@ export default function Page() {
       <div className="my-8 flex flex-row space-x-2 w-full h-40">
           <Image 
           alt="Aquin"
-          src={Aquin}
+          src={Aquin} 
           height={70}
           width={70}
           sizes="33vw"
@@ -229,7 +230,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I'm someone who's not a average 15-year-old and can bring a mix of skills, dedication, and a truckload of coding languages to the table!
+        I'm someone who's not a average 15-year-old and can bring a mix of skills, dedication, and a truckload of programming languages to the table!
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
@@ -249,7 +250,7 @@ export default function Page() {
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.instagram.com/frictionhimself470/"
+            href="https://www.instagram.com/frictionhimself/"
           >
             <ArrowIcon />
             <p className="h-7 ml-2">Say, Yo!</p>
@@ -260,7 +261,7 @@ export default function Page() {
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://discord.com/invite/4W9FBQsvbK"
+            href="https://discord.com/invite/suhwwzuAaX"
           >
             <ArrowIcon />
             <p className="h-7 ml-2">Join Me</p>

@@ -11,6 +11,13 @@ export default function GuestbookPage() {
 
       <div className="w-full text-sm break-words">
         <span className="text-neutral-600 dark:text-neutral-400 mr-1">
+        Agughasi Victor Ikechukwu:
+        </span>
+        "...he is a phenomenon. I remember teaching him when he was in 8th grade, and he would say, 'Sir, this stuff is pretty easy.' Honestly, he is the BEST prodigy I've ever come across. As surprising as it may sound, he knows more about FullStack Development than I do, and I am happy to learn from him... hopefully, he will tutor my kids in the near future."
+      </div>
+
+      <div className="w-full text-sm break-words">
+        <span className="text-neutral-600 dark:text-neutral-400 mr-1">
         Sarah:
         </span>
         He's a very sweet attentive guy he definitely is different from most people he's has a great heart and has dedication he definitely can do a lot , for a 15 year old he's amazing I've never met someone with such qualities I hope everything he does succeeds ✨
