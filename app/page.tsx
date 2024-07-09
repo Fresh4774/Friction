@@ -47,16 +47,6 @@ async function ChannelLink({ img, link, name, subs }) {
       className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
     >
       <div className="flex items-center space-x-3">
-        <div className="relative h-16">
-          <Image
-            alt={name}
-            src={img}
-            height={64}
-            width={64}
-            sizes="33vw"
-            className="border border-neutral-200 dark:border-neutral-700 rounded-full h-16 w-16"
-          />
-        </div>
         <div className="flex flex-col">
           <p className="font-semibold text-neutral-900 dark:text-neutral-100">
             {name}
@@ -96,7 +86,7 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`
-        Yo! Ima 15-year-old entrepreneur and a programmer who's been in the game since the age of 7. Currently, I'm focusing on my dream, my startup Aquin!
+        Yo! Ima 15-year-old entrepreneur and a programmer who's been in the game since the age of 7. Currently, I'm focusing on my dream startup Aquin!
         `}
       </p>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
@@ -163,7 +153,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I've got a decent freelancing experience and over 200+ side-projects. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college, bakery, law-firm and thrown few cents into various startups. Oh, and did I mention I've got some skin in the machine learning game too?
+        I've got a decent freelancing experience and over 200+ side-projects. From full-stack websites to MERN projects, SaaS solutions, APIs, and even dabbling in video games, mobile applications, PWA, Web Apps, Machine Learning projects and much more! Work-wise, I've crafted websites for 5 talented artists, whipped up one for a college and thrown few cents into various startups. Oh, and did I mention I've got some skin in the machine learning game too?
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -172,13 +162,19 @@ export default function Page() {
             img={MainProfile}
             name="@itssFriction"
             link="https://www.youtube.com/@itssFriction/videos"
-            subs="479 YT Subscribers"
+            subs="480 YT Subs"
           />
           <ChannelLink
             img={MainProfile}
             name="@Friction470"
             link="https://twitter.com/Friction470"
             subs="36 X Followers"
+          />
+          <ChannelLink
+            img={MainProfile}
+            name="@frictionhimself"
+            link="https://www.instagram.com/frictionhimself/"
+            subs="15 IG Followers"
           />
           <ChannelLink
             img={MainProfile}
@@ -190,7 +186,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        When it comes to languages, I'm not just talking, I talk the walk with proficiency in 28 of them.
+        When it comes to languages, I'm not just talking, I talk the walk with proficiency in 21 of them.
         </p>
       </div>
       <div className="my-8 flex flex-col space-y-4 w-full">
@@ -200,15 +196,11 @@ export default function Page() {
             link="https://aquin.app"
           />
           <BlogLink
-            name="Founder of Aquin. (Documentation)"
-            link="https://doc.aquin.app"
-          />
-          <BlogLink
             name="Completed 200+ Projects, been a Freelancer, tried Open-Source."
             link="https://discord.com/invite/suhwwzuAaX"
           />
           <BlogLink 
-          name="Ukulele, Guitar, Table Tennis and Fortnite." 
+          name="Ukulele, Guitar, Table Tennis, Fortnite and God of war" 
           link="https://open.spotify.com/user/31kpb6bsm44q3yzwe2tjdggmf54e" 
           />
         </Suspense>
@@ -230,7 +222,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I'm someone who's not a average 15-year-old and can bring a mix of skills, dedication, and a truckload of programming languages to the table!
+        Maybe I'm Dreaming ツ I'ma Alive Kaizen Stoic.
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
