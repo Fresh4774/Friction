@@ -86,7 +86,7 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`
-        Yo! Ima 15-year-old entrepreneur and a programmer who's been in the game since the age of 7. Currently, I'm focusing on my dream startup Aquin!
+        Yo! Ima 15-year-old entrepreneur, programmer, Founder & CEO of Aquin, who's been in the game since the age of 7.
         `}
       </p>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
